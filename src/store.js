@@ -46,6 +46,7 @@ class Store {
     const maxCode = this.state.list.reduce((max, item) => Math.max(max, item.code), 0);
     const newCode = maxCode + 1; 
     
+    
     this.setState({
       ...this.state,
       list: [...this.state.list, { code: newCode, title: 'Новая запись' }],
