@@ -1,6 +1,8 @@
 .Item {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 20px;
   transition: background-color 1s;
 }
 
@@ -10,16 +12,21 @@
 }
 
 .Item-code {
-  padding: 20px 10px 20px 20px;
+  padding: 0 10px;
+  flex-shrink: 0;
 }
 
 .Item-title {
-  width: 100%;
-  padding: 20px 10px;
+  flex: 1;
+  padding: 0 10px;
 }
 
-.Item-actions {
+.Item-details {
   display: flex;
-  justify-content: flex-end;
-  padding: 20px 20px 20px 10px;
+  align-items: center;
 }
+
+.Item-price {
+  margin-right: 10px;
+}
+
