@@ -1,0 +1,9 @@
+.Pagination {
+	display: flex;
+	justify-content: flex-end;
+  margin: 10px 50px;
+}
+
+.Pagination-divider {
+	color: #cccccc;
+}
